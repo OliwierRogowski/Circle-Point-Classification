@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="KlasyfikacjaPktWewnatrzKola/KlasyfikacjaPktWewnatrzKola.vcxproj" Id="efd7ffc3-727d-4ace-a8b0-55c6a9868466" />
+</Solution>

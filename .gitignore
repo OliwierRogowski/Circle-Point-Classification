@@ -1,0 +1,9 @@
+.vs/
+[Dd]ebug/
+[Rr]elease/
+[Xx]64/
+x64/
+*.ipch
+*.sdf
+*.opensdf
+packages/
