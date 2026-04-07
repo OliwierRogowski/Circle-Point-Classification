@@ -25,5 +25,5 @@ Uses the Sigmoid activation function $\sigma(z) = \frac{1}{1+e^{-z}}$.
 Implements stochastic gradient descent to minimize the error by adjusting weights based on the chain rule.
 ## Mathematical Implementation
 The weight update $\Delta w$ is calculated using the delta rule:
-$$\Delta w = \eta \cdot (\text{target} - \text{output}) \cdot \sigma'(z) \cdot \text{input}$$
+$$\Delta w = \eta \cdot (\text{target} - \text{output}) \cdot \sigma'(z) \cdot \text{input}$$ \n
 Where:$\eta$ (eta): Learning rate (set to 0.1).$\sigma'(z)$: The derivative of the sigmoid function, calculated as $output \cdot (1 - output)$.🚀 How it Works (Main Flow)Training Phase: The program generates 1,000 random points within a $[-1, 1]$ range. It checks them against the circle equation and trains the MLP.User Interaction: After training, the program prompts the user to enter a custom $(x, y)$ coordinate.Inference: The model predicts the probability. If the output is $> 0.5$, the point is classified as "Inside the Circle".🛠️ Technical DependenciesEigen Library: Used for all matrix and vector operations.Standard C++ Random: Utilizes std::mt19937 and std::normal_distribution for weight initialization and data generation.
